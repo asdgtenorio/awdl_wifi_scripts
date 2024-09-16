@@ -2,7 +2,10 @@
 
 set -euo pipefail
 
-read -p "See https://www.meter.com/mac-osx-awdl-psa for more details. You will be prompted for your admin password. Do you want to continue? y/n: " choice
+echo "****************************************"
+echo "This script will disable Apple Wireless Direct Link (AWDL). This will impact Airdrop, using your iPad as a secondary display, and Continuity Camera."
+echo "****************************************"
+read -p "You will be prompted for your admin password. Do you want to continue? y/n" choice
 
 case $choice in
 [yY]* ) sudo echo "Stopping disable_awdl.sh from running in the background." ;;

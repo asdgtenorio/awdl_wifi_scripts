@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>com.meter.wifi.awdl</string>
+	<string>org.asdubai.wifi.awdl</string>
 	<key>ProgramArguments</key>
 	<array>
 		<string>/Users/YOUR_USERNAME/disable_awdl.sh</string>

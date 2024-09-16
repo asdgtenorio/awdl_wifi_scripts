@@ -1,5 +1,4 @@
-See https://www.meter.com/mac-osx-awdl-psa for more context. This script will disable AWDL (Apple Wireless Direct Link)
-in order to improve WiFi connectivity for Apple M1/M2 MacBooks.
+This script will disable AWDL (Apple Wireless Direct Link) in order to improve WiFi connectivity for Apple M1/M2/M3 MacBooks.
 
 # Usage
 
@@ -7,7 +6,7 @@ in order to improve WiFi connectivity for Apple M1/M2 MacBooks.
 
 1. On your Mac, open the Terminal app.
 2. Run: 
-```bash <(curl -sL https://www.meter.com/awdl.sh)```
+```bash <(curl -sL https://raw.githubusercontent.com/asdgtenorio/awdl_wifi_scripts/main/awdl.sh)```
 3. Acknowledge the prompt and type in your admin password.
 
 
@@ -15,9 +14,9 @@ in order to improve WiFi connectivity for Apple M1/M2 MacBooks.
 
 1. On your Mac, open the Terminal app.
 2. Run: 
-```curl -sL https://www.meter.com/awdl-daemon.sh | bash```
+```curl -sL https://raw.githubusercontent.com/asdgtenorio/awdl_wifi_scripts/main/awdl-daemon.sh | bash```
 
 ## Remove the scripts and renable awdl0 interface
 ```
-curl -s https://raw.githubusercontent.com/meterup/awdl_wifi_scripts/main/cleanup-and-reenable-awdl.sh | bash &> /dev/null
+curl -s https://raw.githubusercontent.com/asdgtenorio/awdl_wifi_scripts/main/cleanup-and-reenable-awdl.sh | bash &> /dev/null
 ``` 
